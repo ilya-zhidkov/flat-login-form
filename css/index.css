@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root {
+    --base-font-size: 12px;
+    --normal-font-size: 14px;
+
+    --primary-color: #fff;
+    --secondary-color: #ea3e3d;
+    --dark-color: #000;
+    --background-color: #f1f0f0;
+
+    --base-border-radius: 3px;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+header {
+    margin: 50px auto;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--dark-color);
+}
+
+header small {
+    color: #4d4d4d;
+}
+
+header span a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.form {
+    z-index: 1;
+    background: var(--primary-color);
+    margin: 0 auto 100px;
+    padding: 30px;
+    border-radius: var(--base-border-radius);
+    text-align: center;
+}
+
+.form .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-color);
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+.form .logo img {
+    display: block;
+    height: 115px;
+    transform: translateX(5px);
+}
+
+.form input {
+    outline: 0;
+    background-color: var(--background-color);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: var(--base-border-radius);
+    box-sizing: border-box;
+    font-size: var(--normal-font-size);
+}
+
+.form button {
+    outline: 0;
+    background: var(--secondary-color);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: var(--base-border-radius);
+    color: var(--primary-color);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.form .note {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: var(--base-font-size);
+}
+
+.form .note a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #f1f0f0;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.box {
+    background-color: #828282;
+    border-radius: var(--base-border-radius);
+    padding: 0px 2px;
+    margin-right: 10px;
+}
