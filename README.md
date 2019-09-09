@@ -2,6 +2,8 @@
 
 Simple flat login form made in vanilla HTML &amp; CSS.
 
+Inspired by: [Andy Tran](https://codepen.io/andytran/pen/GJOBZj)
+
 ![Flat Login Form](./assets/images/flat-login-form.png)
 
 ---
@@ -15,10 +17,10 @@ Simple flat login form made in vanilla HTML &amp; CSS.
 
 ### Use case
 
-- Using plain vanilla HTML & CSS
+- Using plain **vanilla HTML & CSS**
 - Positioning elements with a help of **Flexbox**
 - Including **FontAwesome 5** icon library
-- Improving typography with Google Fonts
+- Improving typography with **Google Fonts**
 
 ---
 
